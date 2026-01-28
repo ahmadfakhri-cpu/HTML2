@@ -1,0 +1,67 @@
+/* RESET */
+
+/*
+Fungsi margin untuk mengatur jarak dari dalam elemen 
+padding untukmengatur jarak dari luar elemen
+box-sizing: border-box memastikan bahwa padding dan border termasuk dalam 
+lebar dan tinggi total elemen
+*/
+
+* {margin: 0; padding: 0;box-sizing: border-box;}
+
+/* GLOBAL */
+
+/*
+Fungsi font-family adalah untuk menentukan jenis huruf yang digunakan pada halaman web.
+Fungsi line-height adalah digunakan untuk mengatur jarak antara baris.
+Fungsi text-decoration adalah menambahkan atau mengatur dekorasi pada teks.
+Fungsi color adalah untuk mengatur jenis warna font yang digunakan di dalam halaman web.
+Fungsi width 90% adalah untuk mengatur lebar sebesar 90% dari elemen induknya
+*/
+body {font-family: Arial, sans-serif;color: #333;line-height: 1.6;}
+.container {width: 90%;max-width: 900px;margin: auto;}
+a {text-decoration: none;color: inherit;}
+
+/* HEADER */
+/*
+Fungsi background adalah untuk mengatur tampilan latar belakang dari suatu elemen
+Fungsi font-size adalah untuk mengatur ukuran teks pada elemen HTML.
+Fungsi margin-right adalah untuk mengatur jarak luar bagian kanan.
+*/
+.header {background: #1e3a8a;color: white;padding: 15px 0;}
+.logo {font-size: 22px}
+.nav a {margin-right: 15px;}
+
+/* HERO */
+
+/*
+Fungsi margin bottom adalah mengatur jarak luar bagian bawah
+*/
+.hero {background: #e5e7eb;text-align: center;padding: 60px 0;}
+.hero h2{margin-bottom: 15px;}
+
+/* BUTTON */
+
+/*
+Fungsi margin-top adalah untuk mengatur jarak luar bagian atas
+Fungsi display adalah digunakan untuk untuk menentukan bagaimana sebuah elemen ditampilkan pada halamn.
+Fungsi border-radius adalah untuk membuat sudut elemen menjadi melengkung.
+*/
+.btn {display: inline-block;margin-top: 20px;padding: 10px 20px;background: #1e3a8a;
+    color: white;border-radius: 4px;}
+/* SECTION */
+    .section {padding: 50px 0;}
+    .section h2 {margin-bottom: 15px;}
+    .light {background: #f9fafb;}
+
+    /* LIST */
+
+    /*
+    Fungsi margin-left adalah untuk mengatur jarak luar bagian kiri
+    */
+    .list {margin-left: 20px;}
+    .list li {margin-bottom: 8px;}
+    /*CTA*/
+    .cta{background: #1e3a8a;color: white;text-align: center;padding: 60px 0;}
+    /*FOOTER*/
+    .footer {background: #111827;color: white;text-align: center;padding: 15px 0;}
