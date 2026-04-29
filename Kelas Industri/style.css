@@ -1,0 +1,100 @@
+body {
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input {
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-submit {
+    background-color: #1877f2;
+    color: #fff;
+    padding: 10px 20px;                                                                                                          
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #146bdc;
+}
+
+.card {
+    background-color: #fff;
+    width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form {
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* vh = viewport height = 1080 pixel */
+    overflow-y: hidden;
+}
+
+.logo {
+    width: 300px;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+.forgot-acoount {
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 14px;
+}
+
+.forgot-acoount:hover {
+    text-decoration: underline;
+}
+
+.tambahan {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.btn-create-account {
+    background-color: #42b72a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.btn-create-account:hover {
+    background-color: #3fa72a;
+}
+
+.container-create-account {
+    text-align: center;
+    margin-top: 20px;
+}
